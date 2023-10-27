@@ -9,7 +9,6 @@ using namespace std;
 int main() {
     int num;
     cin >> num;
-    // 7 = 00000111
-    cout << (num & 7) << endl;
+    for (int i = 2; i >= 0; i--) cout << (((num&7)>>i)&1);
     return 0;
 }

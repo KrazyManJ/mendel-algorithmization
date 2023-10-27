@@ -8,8 +8,7 @@ using namespace std;
 
 int main() {
     char ch;
-    cin >> ch;
-    // 11110000 >> 4 = 00001111 = 1+2+4+8=15
-    cout << ((ch >> 4) & 15) << endl;
+    cin.get(ch);
+    for (int i = 7; i > 3; i--) cout << ((ch >> i) & 1);
     return 0;
 }
