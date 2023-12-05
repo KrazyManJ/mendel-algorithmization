@@ -30,4 +30,9 @@ add_executable(04.13 worksheet_04/exercise_04_13.cpp)
 add_executable(04.17 worksheet_04/exercise_04_17.cpp)
 add_executable(04.18 worksheet_04/exercise_04_18.cpp)
 
-add_executable(10.04 worksheet_10/exercise_10_04.cpp)
+add_executable(10.04 worksheet_10/exercise_10_04.cpp
+        worksheet_10/exercise_10_07.cpp)
+add_executable(10.05 worksheet_10/exercise_10_05.cpp)
+add_executable(10.06 worksheet_10/exercise_10_06.cpp)
+add_executable(10.07 worksheet_10/exercise_10_07.cpp)
+add_executable(10.08 worksheet_10/exercise_10_08.cpp)

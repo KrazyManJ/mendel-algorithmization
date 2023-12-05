@@ -1,0 +1,5 @@
+Dacia	Sandero	2003	Red	200000	AU853D1
+Dacia	Sandero	2008	Blue	200000	AU853D1
+Dacia	Sandero	2012	Green	200000	AU853D1
+Dacia	Sandero	2000	Orange	200000	AU853D1
+Dacia	Sandero	2020	Turquoise	200000	AU853D1
