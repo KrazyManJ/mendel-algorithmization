@@ -1,0 +1,5 @@
+Martin 80000
+Kata 1600000
+Ondra 10000
+Livie 18000
+Jarda 2500000

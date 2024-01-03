@@ -20,7 +20,7 @@ int main() {
     unsigned int lineNum;
     ifstream read ("file.bin", ios::binary);
     if (read.is_open()){
-        read.seekg(0,read.end);
+        read.seekg(0,std::ifstream::end);
         int size = read.tellg();
         while (cin >> lineNum){
             if ((lineNum-1)*LINE_LENGTH<size){

@@ -22,11 +22,7 @@ void fillArray(double array[], unsigned size, double &avg) {
 
 double calcNumerator(double array[], unsigned size, double avg) {
     double sum = 0;
-
-    for (int i = 0; i < size; i++) {
-        sum += pow(array[i] - avg, 2);
-    }
-
+    for (int i = 0; i < size; i++) sum += pow(array[i] - avg, 2);
     return sum;
 }
 
